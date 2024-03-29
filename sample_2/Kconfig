@@ -1,6 +1,9 @@
 mainmenu "Kconfig Demo"
 
 menu "Test Params setting"
+
+source "driver/Kconfig"
+
 config TEST_ENABLE
     bool "Enable test work"
     default n

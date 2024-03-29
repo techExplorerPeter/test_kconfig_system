@@ -1,0 +1,7 @@
+menu "Test Params setting"
+config DRIVER_TEST_GEN
+    bool "Enable test driver work"
+    default y
+    help
+        Will print debug information if enable.
+endmenu

@@ -1,0 +1,1 @@
+obj-$(CONFIG_DRIVER_TEST_GEN) := test test1 test2
