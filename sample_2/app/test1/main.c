@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "autoconfig.h"
 #ifdef CONFIG_DRIVER_TEST_GEN
 #include "driver_test.h"
 #include "driver_test1.h"
